@@ -7,7 +7,7 @@ uses
   ALIOSSEXP in '..\src\ALIOSSEXP.pas',
   ALIOSSMIME in '..\src\ALIOSSMIME.pas',
   ALIOSSOPT in '..\src\ALIOSSOPT.pas',
-  ALIOSSUTIL in '..\src\ALIOSSUTIL.pas',
+  ALIOSSUTIL in '..\src\ALIOSSUTIL.pas';
 
 
 {$R *.res}

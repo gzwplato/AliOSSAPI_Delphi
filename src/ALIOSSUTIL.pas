@@ -74,7 +74,7 @@ function PureASCIIString(const S: string): boolean;
 implementation
 
 uses
-  SysConst, Windows;
+  SysConst, Windows, IdGlobal;
 
 const
   DefShortDayNames: array[1..7] of string = (SShortDayNameSun, SShortDayNameMon, SShortDayNameTue, SShortDayNameWed, SShortDayNameThu, SShortDayNameFri, SShortDayNameSat);
@@ -154,8 +154,8 @@ var
 begin
   with TIdHMACSHA1.Create do
   try
-    Key := BytesOf(AKey);
-    Result := HashValue(BytesOf(Input));
+    Key := TIdBytes(BytesOf(AKey));
+    Result := TBytes(HashValue(TIdBytes(BytesOf(Input))));
   finally
     Free;
   end;
@@ -163,7 +163,7 @@ end;
 
 function Base64Encode(const Input: TBytes): string;
 begin
-  Result := TIdEncoderMIME.EncodeBytes(Input);
+  Result := TIdEncoderMIME.EncodeBytes(TIdBytes(Input));
 end;
 
 function HexBase64Encode(const Input: string): string;

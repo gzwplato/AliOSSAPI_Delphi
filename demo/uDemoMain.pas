@@ -85,7 +85,7 @@ var
 
 implementation
 uses
-  uReportUtils, uFile, uSimpleXml, Generics.Collections;
+  Generics.Collections;
 var
   ossfs: TAliOssFileSystem;
   volumns: TAliOssVolumnInfoList;

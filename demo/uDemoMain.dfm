@@ -20,7 +20,7 @@ object Form2: TForm2
     Top = 0
     Width = 545
     Height = 455
-    ActivePage = ts1
+    ActivePage = TabSheet1
     Align = alClient
     TabOrder = 0
     object TabSheet1: TTabSheet
@@ -62,7 +62,7 @@ object Form2: TForm2
         Height = 24
         ImeName = #20013#25991' ('#31616#20307') - '#25628#29399#25340#38899#36755#20837#27861
         TabOrder = 0
-        Text = 'oss-cn-hangzhou.aliyuncs.com'
+        Text = 'oss-cn-hangzhou.aliyuncs.com3333'
       end
       object edOssAccessId: TComboBox
         Left = 139
@@ -71,7 +71,7 @@ object Form2: TForm2
         Height = 24
         ImeName = #20013#25991' ('#31616#20307') - '#25628#29399#25340#38899#36755#20837#27861
         TabOrder = 1
-        Text = 'LTAI6N1fOGWN5k8M'
+        Text = 'xxxxxxxxxxxxxxxxxxxxxx'
       end
       object edOssAccessKey: TComboBox
         Left = 139
@@ -80,7 +80,7 @@ object Form2: TForm2
         Height = 24
         ImeName = #20013#25991' ('#31616#20307') - '#25628#29399#25340#38899#36755#20837#27861
         TabOrder = 2
-        Text = 'czqdZqQuhZ7wkR1ikSoxelGtPgbcz2'
+        Text = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
       end
     end
     object TabSheet2: TTabSheet
